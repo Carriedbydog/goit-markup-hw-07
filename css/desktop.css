@@ -1,0 +1,194 @@
+@media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /**
+    |============================
+    | HEADER
+    |============================
+  */
+  .header-container {
+    width: 1158px;
+    height: 72px;
+  }
+  .header-menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  /* --------------------Address--------------------- */
+
+  .address-list {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+  }
+  .address-item + .address-item {
+    margin-left: 40px;
+  }
+  /**
+  |============================
+  | HERo
+  |============================
+*/
+  .hero-section {
+    max-width: 1158px;
+    max-height: 600px;
+    padding: 188px 0;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /**
+  |============================
+  | OUR GOALS
+  |============================
+*/
+
+  .section-goals {
+    padding: 120px 0;
+  }
+  goals-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .goals-item {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .icon-goals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    padding: 24px 100px;
+    border-radius: 4px;
+    background-color: var(--light-cl);
+  }
+  .icons {
+    display: block;
+  }
+  .goals-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .goals-description {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  /**
+  |============================
+  | OUR SERVICES
+  |============================
+*/
+  .services {
+    display: block;
+  }
+  .services {
+    padding-bottom: 120px;
+  }
+  .services-title {
+    margin-top: 0;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-cl);
+  }
+  .services-list {
+    display: flex;
+  }
+  .services-item {
+    width: calc((100% - 48) / 3);
+    margin-right: 24px;
+  }
+  .services-item:nth-child(3n) {
+    margin-right: 0px;
+  }
+  /**
+  |============================
+  | OUR TEAM
+  |============================
+*/
+  .team {
+    padding: 120px 0;
+  }
+  /**
+  |============================
+  | Customers
+  |============================
+*/
+  .customers-section {
+    padding: 120px 0;
+    text-align: center;
+  }
+  .customers-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .customers-item {
+    flex-basis: calc((100% - 120px) / 6);
+  }
+  /**
+  |============W================
+  | FOOTER
+  |============================
+*/
+  .footer {
+    padding: 100px 0;
+
+    background-color: #2e2f42;
+  }
+
+  .footer-logo-side {
+    margin-right: 120px;
+  }
+  footer-description {
+    margin-bottom: 0;
+  }
+  .footer-socials {
+    flex-wrap: nowrap;
+  }
+
+  /**
+  |===========================================================================
+  | PORTFOLIO
+  |===========================================================================
+*/
+  .section-portfolio {
+    padding: 100px 120px 156px 156px;
+  }
+  .filter-list {
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .portfolio-job-list {
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio-item {
+    min-width: 360px;
+    min-height: 420px;
+
+    width: calc((100% - 48px) / 3);
+  }
+  .portfolio-block {
+    min-width: 360px;
+  }
+}

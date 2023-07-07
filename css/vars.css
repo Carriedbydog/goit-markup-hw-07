@@ -1,0 +1,35 @@
+:root {
+  /* Fonts */
+  --font-logo: 'Raleway', sans-serif;
+  --font-primary: 'Roboto', sans-serif;
+
+  /* Colors */
+  --accent-color: #404bbf;
+  --descriptions: #434455;
+  --button-color: #4d5ae5;
+  --cornflower: #e7e9fc;
+  --primary-cl: #2e2f42;
+  --light-cl: #f4f4fd;
+  --grey-cl: #8e8f99;
+  --white-cl: #ffffff;
+
+  --main-gradient: linear-gradient(
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  );
+
+  /* Shadows */
+  --filter-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  --team-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  --page-box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
+  /* Background-colors */
+  --bg-hero: rgba(46, 47, 66, 0.7);
+  --bg-socials: #31d0aa;
+  --modal-bg: #fcfcfc;
+}
