@@ -48,9 +48,21 @@
   |============================
 */
   .hero-section {
-    max-width: 768px;
-    max-height: 436px;
+    min-width: 768px;
+    min-height: 436px;
     padding: 112px 0;
+    background-image: var(--main-gradient),
+      url('../images/hero/hero@1x-tab.webp');
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: var(--main-gradient),
+        url('../images/hero/hero@2x-tab.webp');
+      background-repeat: no-repeat;
+    }
   }
   .hero-title {
     align-items: center;

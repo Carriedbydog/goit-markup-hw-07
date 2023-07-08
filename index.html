@@ -142,31 +142,90 @@
           <h2 class="services-title">What are we doing</h2>
           <ul class="services-list list">
             <li class="services-item">
-              <img
-                class="services-img list"
-                src="./images/section2/section2_1.jpg"
-                alt="web design"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/our-services/services1@1x-desc.webp 1x,
+                    ./images/our-services/services1@2x-desc.webp 2x
+                  "
+                  type="images/webp"
+                />
+                <!-- <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/our-services/services1@1x-desc.jpg 1x,
+                    ./images/our-services/services1@2x-desc.jpg 2x
+                  "
+                  type="images/jpg"
+                /> -->
+                <img
+                  class="services-img list"
+                  src="./images/our-services/services1@1x-desc.webp"
+                  alt="web design"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="services-item">
-              <img
-                class="services-img list"
-                src="./images/section2/section2_2.jpg"
-                alt="design for applications"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/our-services/services2@1x-desc.webp 1x,
+                    ./images/our-services/services2@2x-desc.webp 2x
+                  "
+                  type="images/webp"
+                />
+                <!-- <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/our-services/services2@1x-desc.jpg 1x,
+                    ./images/our-services/services2@2x-desc.jpg 2x
+                  "
+                  type="images/jpg"
+                /> -->
+
+                <img
+                  class="services-img list"
+                  src="./images/our-services/services2@1x-desc.webp"
+                  alt="design for applications"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
             <li class="services-item">
-              <img
-                class="services-img list"
-                src="./images/section2/section2_3.jpg"
-                alt="web design for mobile phones"
-                width="360"
-                height="300"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/our-services/services3@1x-desc.webp 1x,
+                    ./images/our-services/services3@2x-desc.webp 2x
+                  "
+                  type="images/webp"
+                />
+                <!-- <source
+                  media="(min-width: 1158px)"
+                  srcset="
+                    ./images/our-services/services3@1x-desc.jpg 1x,
+                    ./images/our-services/services3@2x-desc.jpg 2x
+                  "
+                  type="images/jpg"
+                /> -->
+
+                <img
+                  class="services-img list"
+                  src="./images/our-services/services3@1x-desc.webp"
+                  alt="web design for mobile phones"
+                  width="360"
+                  height="300"
+                  loading="lazy"
+                />
+              </picture>
             </li>
           </ul>
         </div>
@@ -183,6 +242,7 @@
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="employee">
                 <h3 class="team-name">Mark Guerrero</h3>
@@ -250,6 +310,7 @@
                 alt="Tom Ford"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="employee">
                 <h3 class="team-name">Tom Ford</h3>
@@ -317,6 +378,7 @@
                 alt="Camila Garcia"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="employee">
                 <h3 class="team-name">Camila Garcia</h3>
@@ -384,6 +446,7 @@
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="employee">
                 <h3 class="team-name">Daniel Wilson</h3>
