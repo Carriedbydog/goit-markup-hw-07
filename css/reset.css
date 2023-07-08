@@ -4,6 +4,7 @@
   |============================
 */
 body {
+  width: 100vw;
   font-family: var(--font-primary);
   background-color: var(--white-cl);
   color: var(--descriptions);
