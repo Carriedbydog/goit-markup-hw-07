@@ -4,6 +4,7 @@
   padding-right: 15px;
   padding-top: 24px;
   padding-bottom: 24px;
+  min-width: 320px;
   width: 100%;
 }
 /**
@@ -255,7 +256,7 @@ address {
 */
 .hero-section {
   min-width: 428px;
-  min-width: 432px;
+  min-height: 432px;
   padding: 112px 0;
   margin: 0 auto;
 
@@ -328,6 +329,7 @@ address {
 */
 .section-goals {
   padding: 96px 0;
+  min-width: 428px;
 }
 .goals-list {
   display: flex;
@@ -379,6 +381,7 @@ address {
 .team {
   background-color: var(--light-cl);
   padding: 96px 0;
+  min-width: 428px;
 }
 .team-title {
   margin-top: 0;
@@ -463,6 +466,7 @@ address {
   |============================
 */
 .customers-section {
+  min-width: 428px;
   padding: 96px 0;
   text-align: center;
 }
@@ -532,7 +536,7 @@ address {
 .footer {
   text-align: center;
   padding: 97.5px 0;
-
+  min-width: 428px;
   background-color: #2e2f42;
 }
 .footer-section {
