@@ -184,7 +184,8 @@
   |===========================================================================
 */
   .section-portfolio {
-    padding: 100px 120px 156px 156px;
+    padding-top: 100px;
+    padding-bottom: 120px;
   }
   .filter-list {
     justify-content: center;

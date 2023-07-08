@@ -27,7 +27,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="header-page">
+    <header class="header-page header-portfolio">
       <div class="header-container container">
         <nav class="header-nav">
           <a class="logo-first-part-header link" href="./index.html"
@@ -72,7 +72,7 @@
     </header>
     <main>
       <section class="section-portfolio">
-        <div class="container">
+        <div class="portfolio-container">
           <h1 class="visually-hidden">portfolio</h1>
 
           <!-- Filter buttons -->
@@ -99,13 +99,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_1/1.jpg"
-                    alt="screenshots on mobile phone of banking app"
-                    width="360"
-                    height="300"
-                  />
+                  <!-- desktop -->
+                  <picture>
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img1@1px-desk.webp 1x,
+                        ./images/portfolio/img1@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img1@1px-tab.webp 1x,
+                        ./images/portfolio/img1@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img1@1px-mob.webp 1x,
+                        ./images/portfolio/img1@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img1@1px-mob.webp"
+                      alt="screenshots on mobile phone of banking app"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -123,14 +153,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_1/2.jpg"
-                    alt="man paying with mobile by qr-code"
-                    width="360"
-                    height="300"
-                  />
-
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img2@1px-desk.webp 1x,
+                        ./images/portfolio/img2@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img2@1px-tab.webp 1x,
+                        ./images/portfolio/img2@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img2@1px-mob.webp 1x,
+                        ./images/portfolio/img2@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img2@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
                     Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
@@ -146,13 +205,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_1/3.jpg"
-                    alt="mobile phone and lapton showing app"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img3@1px-desk.webp 1x,
+                        ./images/portfolio/img3@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img3@1px-tab.webp 1x,
+                        ./images/portfolio/img3@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img3@1px-mob.webp 1x,
+                        ./images/portfolio/img3@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img3@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -171,13 +260,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_2/1.jpg"
-                    alt="man driving a car"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img4@1px-desk.webp 1x,
+                        ./images/portfolio/img4@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img4@1px-tab.webp 1x,
+                        ./images/portfolio/img4@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img4@1px-mob.webp 1x,
+                        ./images/portfolio/img4@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img4@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -194,13 +313,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_2/2.jpg"
-                    alt="phone with different Illustrations"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img5@1px-desk.webp 1x,
+                        ./images/portfolio/img5@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img5@1px-tab.webp 1x,
+                        ./images/portfolio/img5@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img5@1px-mob.webp 1x,
+                        ./images/portfolio/img5@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img5@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -217,13 +366,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_2/3.jpg"
-                    alt="girl listening music and smiling"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img6@1px-desk.webp 1x,
+                        ./images/portfolio/img6@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img6@1px-tab.webp 1x,
+                        ./images/portfolio/img6@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img6@1px-mob.webp 1x,
+                        ./images/portfolio/img6@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img6@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -242,13 +421,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_3/1.jpg"
-                    alt="screenshots from applications"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img7@1px-desk.webp 1x,
+                        ./images/portfolio/img7@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img7@1px-tab.webp 1x,
+                        ./images/portfolio/img7@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img7@1px-mob.webp 1x,
+                        ./images/portfolio/img7@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img7@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -265,13 +474,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_3/2.jpg"
-                    alt="woman with veggies and fruits"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img8@1px-desk.webp 1x,
+                        ./images/portfolio/img8@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img8@1px-tab.webp 1x,
+                        ./images/portfolio/img8@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img8@1px-mob.webp 1x,
+                        ./images/portfolio/img8@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img8@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -288,13 +527,43 @@
             <li class="portfolio-item link">
               <a class="portfolio-links link" href="">
                 <div class="overlay">
-                  <img
-                    class="images-group"
-                    src="./images/portfolio/image_group_3/3.jpg"
-                    alt="man making coffee"
-                    width="360"
-                    height="300"
-                  />
+                  <picture>
+                    <!-- desktop -->
+                    <source
+                      media="(min-width: 1158px)"
+                      srcset="
+                        ./images/portfolio/img9@1px-desk.webp 1x,
+                        ./images/portfolio/img9@2px-desk.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- tablet -->
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                        ./images/portfolio/img9@1px-tab.webp 1x,
+                        ./images/portfolio/img9@2px-tab.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <!-- mobile -->
+                    <source
+                      media="(max-width: 767px)"
+                      srcset="
+                        ./images/portfolio/img9@1px-mob.webp 1x,
+                        ./images/portfolio/img9@2px-mob.webp 2x
+                      "
+                      type="image/webp"
+                    />
+                    <img
+                      class="images-group"
+                      src="./images/portfolio/img9@1px-mob.webp"
+                      alt="man paying with mobile by qr-code"
+                      width="396"
+                      height="280"
+                      loading="lazy"
+                    />
+                  </picture>
 
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
