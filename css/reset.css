@@ -4,8 +4,6 @@
   |============================
 */
 body {
-  width: 100vw;
-  overflow-x: hidden;
   font-family: var(--font-primary);
   background-color: var(--white-cl);
   color: var(--descriptions);
