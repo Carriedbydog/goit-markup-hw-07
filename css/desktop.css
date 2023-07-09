@@ -9,7 +9,7 @@
     |============================
   */
   .header-container {
-    width: 1158px;
+    min-width: 1158px;
     height: 72px;
   }
   .header-menu {
@@ -23,6 +23,14 @@
     display: flex;
     margin-left: auto;
     gap: 40px;
+  }
+  .address-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   .address-item + .address-item {
     margin-left: 40px;
@@ -97,6 +105,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 400;
+    max-width: 264px;
   }
 
   /**
@@ -139,6 +148,15 @@
   .team {
     padding: 120px 0;
   }
+  .team-container {
+    max-width: 1158px;
+  }
+  .team-item:nth-child(4n) {
+    margin-right: 0;
+  }
+  .team-item {
+    flex-basis: calc(100% - 72px) / 4;
+  }
   /**
   |============================
   | Customers
@@ -177,6 +195,9 @@
   .footer-socials {
     flex-wrap: nowrap;
   }
+  .footer-description {
+    margin: 0;
+  }
 
   /**
   |===========================================================================
@@ -192,16 +213,17 @@
     margin-bottom: 72px;
   }
   .portfolio-job-list {
-    flex-wrap: wrap;
+    justify-content: center;
     column-gap: 24px;
     row-gap: 48px;
   }
   .portfolio-item {
-    min-width: 360px;
-    min-height: 420px;
+    max-width: 360px;
+    max-height: 420px;
 
     width: calc((100% - 48px) / 3);
   }
+
   .portfolio-block {
     min-width: 360px;
   }

@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    /* max-width: 768px; */
   }
 
   /**
@@ -13,7 +13,7 @@
     box-shadow: var(--page-box-shadow);
   }
   .header-container {
-    width: 768px;
+    min-width: 768px;
     height: 72px;
   }
   .header-nav {
@@ -38,6 +38,13 @@
     display: block;
     margin-left: auto;
     gap: 12px;
+  }
+  .address-link {
+    font-size: 12px;
+    line-height: 1.7;
+    letter-spacing: 0.04em;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
   .address-item + .address-item {
     margin-left: auto;
@@ -81,8 +88,8 @@
 */
 
   .goals-list {
-    flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .goals-title {
     text-align: start;
@@ -90,22 +97,40 @@
   .goals-item {
     flex-basis: calc((100% - 24px) / 2);
   }
+  .goals-description {
+    margin: 0;
+    max-width: 356px;
+  }
   /**
   |============================
   | OUR TEAM
   |============================
 */
+
+  .team-container {
+    max-width: 768px;
+  }
   .team-list {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
     text-align: center;
     justify-content: center;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-item {
+    flex-basis: calc(100% - 24px) / 2;
   }
   /**
   |============================
   | Customers
   |============================
 */
+  .customers {
+    max-width: 768px;
+  }
   .customers-list {
     display: flex;
     justify-content: center;
@@ -138,22 +163,26 @@
     background-color: #2e2f42;
   }
   .footer-section {
+    flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
   }
   .footer-logo-side {
     margin-left: 0;
+    margin-right: 24px;
   }
   .footer-description {
     width: 264px;
   }
   .footer-socials {
+    align-items: baseline;
     margin-right: 80px;
 
     max-width: 200px;
     max-height: 80px;
   }
   .footer-subs-form {
+    flex-direction: row;
     align-items: baseline;
     justify-content: flex-start;
   }
@@ -172,10 +201,13 @@
   }
 
   .filter-list {
+    align-items: center;
+    justify-content: center;
     margin-bottom: 72px;
     gap: 24px;
   }
   .portfolio-job-list {
+    justify-content: start;
     column-gap: 24px;
     row-gap: 72px;
   }
