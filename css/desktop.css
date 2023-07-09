@@ -199,6 +199,9 @@
   .footer-description {
     margin: 0;
   }
+  .footer-subs-form {
+    flex-wrap: nowrap;
+  }
 
   /**
   |===========================================================================
