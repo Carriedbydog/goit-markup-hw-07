@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) {
   .container {
-    /* max-width: 768px; */
+    max-width: 768px;
   }
 
   /**
@@ -203,11 +203,14 @@
   .filter-list {
     align-items: center;
     justify-content: center;
-    margin-bottom: 72px;
+    flex-wrap: nowrap;
+    margin-bottom: 64px;
     gap: 24px;
+    max-width: 100%;
   }
   .portfolio-job-list {
-    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
   }
@@ -216,6 +219,7 @@
     max-height: 420px;
     width: calc((100% - 24px) / 2);
   }
+
   .portfolio-block {
   }
 }
